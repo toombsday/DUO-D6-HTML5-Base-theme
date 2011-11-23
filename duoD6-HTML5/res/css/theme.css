@@ -1,0 +1,125 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: theme.css
+ * 
+ * Description: Define all general site styles.
+ *
+ */
+
+/* Basic Layout */
+#page-bounds {
+	width: 960px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+/* Structure
+------------------------------------------------------------- */
+#content-bounds {
+}
+#main-column {
+	width: 640px;
+	float: right;
+	margin-bottom: 1em;
+}
+aside#sidebar-right {}
+aside#sidebar-left {
+	color: #888;
+	width: 260px;
+	float: left;
+	background: #ccc;
+	padding: 20px;
+	margin-bottom: 1em;
+}
+
+/* Masthead 
+------------------------------------------------------------- */
+header {
+	width: 940px;
+	clear: both;
+	padding: 20px;
+	background: #ddd;
+	margin-bottom: 1em;
+}
+
+h1#site-name {
+}
+#logo {
+}
+#logo a {
+}
+
+/* Search */
+.search {
+}
+
+/* Navigation
+------------------------------------------------------------- */
+/* Main Navigation */
+#main-nav {
+}
+#main-nav ul.primary-links {
+}
+#main-nav ul.primary-links li {
+}
+#main-nav li {
+}
+#main-nav li.first, #main-nav li.last {
+}
+#main-nav a.active, #main-nav a.active-trail {
+}
+#main-nav a {
+}
+
+/* Secondary Navigation */
+#sec-nav {
+}
+#sec-nav ul.secondary-links {
+}
+#sec-nav ul.secondary-links li {
+}
+#sec-nav li {
+}
+#sec-nav li.first, #sec-nav li.last {
+}
+#sec-nav a.active, #sec-nav a.active-trail {
+}
+#sec-nav a {
+}
+
+
+/* Footer Navigation */
+
+footer ul.links {
+}
+footer ul.links li {
+}
+footer ul.links a {
+}
+
+/* Footer
+------------------------------------------------------------- */
+footer {
+	clear: both;
+	width: 940px;
+	padding: 20px;
+	background: #bbb;
+	margin: 1em 0;
+}
+
+/* Copyright */
+#copyright {
+}
+
+/* General Styles 
+------------------------------------------------------------- */
+
+h1#page-title {}
+
+#content {}
+
+article {}
+
+/* 
+------------------------------------------------------------- */

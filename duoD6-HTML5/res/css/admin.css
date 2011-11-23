@@ -1,0 +1,65 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: admin.css
+ * 
+ * Description: Define styles for elements used for administration tasks.
+ *
+ */
+
+/* Admin Styles
+------------------------------------------------------------- */
+div.admin-panel,
+div.admin-panel .description,
+div.admin-panel .body,
+div.admin,
+div.admin .left,
+div.admin .right,
+div.admin .expert-link,
+div.item-list,
+.menu {margin: 0;padding: 0;}
+
+div.admin .left {float: left; /* LTR */width: 48%;}
+div.admin .right {float: right; /* LTR */width: 48%;}
+div.admin-panel {background: #fff;padding: 1em 1em 1.5em;}
+div.admin-panel .description {margin-bottom: 1.5em;}
+div.admin-panel dl {margin: 0;}
+div.admin-panel dd {color: #898989;font-size: 0.92em;line-height: 1.3em;margin-top: -.2em;margin-bottom: .65em;}
+
+/* editor tabs */
+.tabs ul.primary {	margin-bottom: .75em;}
+.tabs ul.primary li {margin-left: 0;padding-left: 0;}
+.tabs ul.primary li.active {}
+.tabs ul.primary li a {padding: 3px 1em 3px;line-height: 1.5em;}
+.tabs ul.secondary li {background: none;}
+/* ------------------- */
+
+#autocomplete ul {background-color: #fff;}
+table.system-status-report th {border-color: #d3e7f4;}
+#autocomplete li.selected, tr.selected td, tr.selected td.active {background: #027ac6;color: #fff;}
+tr.selected td a:link, tr.selected td a:visited, tr.selected td a:active {color: #d3e7f4;}
+table.sticky-table {width: 100%;}
+table.sticky-table td {padding: 5px;border-right: 1px solid #fff;}
+table tr.region td {background: #eee;border-top: 3px #fff solid;text-transform: uppercase;}
+tr.taxonomy-term-preview {opacity: 0.5;}
+tr.taxonomy-term-divider-top {border-bottom: none;}
+tr.taxonomy-term-divider-bottom {border-top: 1px dotted #CCC;}
+.node-form input {margin-right: 5px;padding: 5px 8px;}
+.draggable a.tabledrag-handle {padding-top: .25em}
+#views-ui-list-views-form .form-item label {margin-bottom: .25em;}
+#views-ui-list-views-form .form-item {margin-bottom: 1em;}
+#edit-views-apply, #edit-views-reset {margin-top: 2.25em;}
+table.views-entry {font-size: 13px;}
+table.views-entry td {padding: 4px;}
+table.views-entry td.view-name {font-size: 14px;}
+table.views-entry td.view-name em {color: #888;}
+
+/** Generic elements.*/
+.messages {background-color: #fff;border: 1px solid #b8d3e5;padding: 4px;margin: .25em 0 .75em;}
+div.warning {padding: 4px;margin: .75em 0;	}
+.preview {background-color: #fcfce8;border: 1px solid #e5e58f;}
+div.status {color: #33a333;border-color: #c7f2c8;}
+div.error, tr.error {color: #a30000;background-color: #FFCCCC;}
+.description {line-height: 1.3em;margin: .25em 0;}
+.form-item input.error, .form-item textarea.error {border: 1px solid #c52020;color: #363636;}
+ul.tips {list-style:none;}

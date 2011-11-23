@@ -1,0 +1,28 @@
+; $Id: duo.info,v 0.1 2010/06/13 23:27:32 goba Exp $
+
+name = Duo Base Theme
+description = Base Theme of Duo Consulting.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = res/css/html.css
+stylesheets[all][] = res/css/theme.css
+stylesheets[all][] = res/css/admin.css
+stylesheets[all][] = res/css/formalize.css
+
+stylesheets[print][] = res/css/print.css
+
+scripts[] = res/js/common.js
+scripts[] = res/js/jquery.formalize.min.js
+*scripts[] = res/js/modernizr.custom.89794.js
+
+regions[header] = Header
+regions[navbar] = Navbar
+regions[toolbar] = Utility Bar
+regions[content] = Main Column Content
+regions[left] = Left Sidebar
+regions[right] = Right Sidebar 
+regions[bottom] = Bottom Content 
+regions[footer] = Footer
+
+

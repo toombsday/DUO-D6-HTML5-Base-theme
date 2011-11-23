@@ -1,0 +1,153 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: html.css
+ * 
+ * Description: Define stlyes for HTML tags.
+ *
+ */
+
+/* Global White Space Reset - Hat Tip: Andrew Krespanis of http://leftjustified.net/  */
+* { padding:0; margin:0; }
+
+p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin: 0 0 .75em; }
+ul, ol { margin-left: 1.5em; }
+/* End GWR */
+
+
+/* Custom Styles
+-------------------------------------------------------- */
+body {
+	color: #333;
+	background: #fff;
+	font: 75%/1.335em Arial, Tahoma, Verdana, Helvetica, sans-serif;
+}
+
+
+/* Tables - table, tr, th, td
+-------------------------------------------------------- */
+th, td {
+	padding: 2px;
+	font-size: 100%;
+}
+th { vertical-align: bottom;font-size: 115%;color: #ccc;}
+td { vertical-align: top; }
+
+tr.even {background-color: #fff;}
+tr.odd {background-color: #ddecf5;}
+
+/* Lists - ol, ul, li, dl, dt, dd
+-------------------------------------------------------- */
+li {
+	line-height: 1.2em;
+	margin-bottom: .2em;
+}
+
+ul.menu, ul.nice-menu, .item-list ul {
+  margin: 1em 0 0 1em;
+  padding: 0;
+}
+
+ul.menu ul, ul.nice-menu ul, .item-list ul ul {
+  margin-left: 20px;
+}
+
+ul li, ul.menu li, ul.nice-menu li, .item-list ul li, li.leaf {
+  margin: 0.5em 0;
+  padding: 0 0 0.25em 10px;
+}
+
+ol li {
+  padding: 0;
+  margin-left: 18px; 
+}
+
+ul li.expanded {}
+ul li.expanded,
+ul li.collapsed {padding: 0 0 0.25em 10px;}
+
+ul li.leaf a, 
+ul li.expanded a,
+ul li.collapsed a {
+  display: block;
+}
+ul.inline li {
+  background: none;
+  margin: 0;
+  padding: 0 1em 0 0;
+}
+ul.links li {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+	font-weight: bold;
+}
+dd {
+	line-height: 1.2em;
+	margin-left: 3em;
+	margin-bottom: .2em;
+}
+
+/* Forms - form, fieldset, legend, input, textarea
+-------------------------------------------------------- */
+
+fieldset { padding: .7em .7em; border: 1px; }
+legend { padding: 0 .3em; font-weight: bold; }
+
+
+/* Links - a, a:hover
+-------------------------------------------------------- */
+a { }
+a:link { }
+a:visited { }
+a:hover { }
+a:active { }
+
+a img {
+	border: none;
+}
+
+/* Headers - h1, h2, h3, h4, h5, h6
+-------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 100%; 
+	margin-bottom: .5em; 
+}
+h1 { font-size: 215%; margin: .25em 0 .75em; }
+h2 { font-size: 135%; margin: 1em 0 1em; }
+h3 { font-size: 125%; margin: 0 0 .75em; }
+h4 { font-size: 100%; margin: 0;  }
+h5 { font-size: 90%; }
+h6 { font-size: 80%; }
+
+/* Text
+-------------------------------------------------------- */
+b, strong { font-weight: bold; }
+i, em { font-style: oblique; }
+
+input, select, textarea {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, "Courier New", Courier, mono;
+	font-size: 11px;
+	padding: 1px 2px;
+}
+blockquote { margin-left: 3em; margin-right: 3em; }
+
+/* Misc
+-------------------------------------------------------- */
+.skipper, .hide {
+	position: absolute;
+	left: -5000px;
+	top: 0;
+	width: 1px;
+	height: 1px; 
+	overflow: hidden;
+}
+
+/* Contain floats: h5bp.com/q */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
